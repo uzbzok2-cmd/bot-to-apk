@@ -6,12 +6,12 @@
   "build": {
     "preview": {
       "android": {
-        "buildType": "apk",
-        "gradleCommand": ":app:assembleRelease"
+        "buildType": "apk"
       },
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://15a9aa88-0b1c-4a0d-9e6f-8759882d1994-00-2amgjzji5t4ho.pike.replit.dev"
+        "EXPO_PUBLIC_API_URL": "https://15a9aa88-0b1c-4a0d-9e6f-8759882d1994-00-2amgjzji5t4ho.pike.replit.dev",
+        "npm_config_legacy_peer_deps": "true"
       }
     },
     "production": {
@@ -20,7 +20,8 @@
       },
       "distribution": "internal",
       "env": {
-        "EXPO_PUBLIC_API_URL": "https://15a9aa88-0b1c-4a0d-9e6f-8759882d1994-00-2amgjzji5t4ho.pike.replit.dev"
+        "EXPO_PUBLIC_API_URL": "https://15a9aa88-0b1c-4a0d-9e6f-8759882d1994-00-2amgjzji5t4ho.pike.replit.dev",
+        "npm_config_legacy_peer_deps": "true"
       }
     }
   },
